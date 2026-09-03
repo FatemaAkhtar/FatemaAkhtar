@@ -24,49 +24,49 @@ That's also how I learn.
 
 ## 🧭 How I Think About Data
 
-I don't usually start by thinking:
+For me, good analysis starts with understanding the **business problem**, not the tool.
 
-> **"What dashboard should I build?"**
+Before writing a SQL query or opening Power BI, I try to understand:
 
-I start with:
+- What is the business trying to achieve?
+- Which metric actually matters?
+- What would a change in that metric mean?
+- What could be causing the problem?
+- What would I need to know before trusting the result?
 
-> **"What are we actually trying to understand?"**
+For example, in my logistics project, I could have simply calculated the overall delivery delay rate and built a dashboard around it.
 
-Then I take it one step at a time.
+But that would only tell me **what happened**.
 
-**What is happening?**
+I wanted to understand **why**.
 
-↓
+So I started breaking the problem down:
 
-**Can I trust the data?**
+> **Where are we missing the SLA?**
 
-↓
+Then:
 
-**Where exactly is it happening?**
+> **Which services and locations are contributing to those failures?**
 
-↓
+Then:
 
-**What happens when I break it down?**
+> **Are the delays concentrated around particular operational windows?**
 
-↓
+And eventually:
 
-**Why is this happening?**
+> **What is actually driving the delayed shipments?**
 
-↓
+That investigation led me to analyse **970K+ delayed shipments** across different operational dimensions and build dashboards around SLA compliance, delay patterns, ETA performance and courier efficiency.
 
-**Is there something else the data is telling me?**
+That's how I like to work.
 
-↓
+**I don't start with the tool. I start with the problem.**
 
-**And finally — what does this actually mean?**
+SQL might be the right tool for one question. Python might help me investigate another. Power BI might be the best way to communicate the finding.
 
-Sometimes the original question gets answered quickly.
+The tool comes after I understand what I'm trying to solve.
 
-Sometimes it opens five more questions.
-
-I actually like the second situation more.
-
-Because that's usually where the interesting analysis starts.
+And if the analysis raises another question, I follow it.
 
 ---
 
