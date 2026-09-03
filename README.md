@@ -1,102 +1,108 @@
-# Fatema Akhtar
+# Hi, I'm Fatema Akhtar 👋
 
 ### Data Analyst | Business Intelligence | SQL | Power BI | Python
 
-I work with data to understand **what is happening, why it is happening, and what we should investigate next.**
+I work with data to understand **what is happening, why it is happening, and what we should look at next.**
 
-I enjoy problems where the answer is not immediately obvious.
+My approach to analytics is simple:
 
-My approach is to start with the right question, understand and validate the data, investigate the patterns, challenge the first answer, and keep going deeper until I can explain what the data is actually telling us.
+**Ask the right question → Understand the data → Validate it → Investigate → Go deeper → Find the story → Communicate the insight**
 
-**Question → Validate → Investigate → Go deeper → Understand → Communicate**
+I don't want to stop at a number that looks right.
 
-I don't believe good analysis is just about producing a number or building a dashboard.
+If something looks unusual, doesn't make sense, or raises another question, I want to investigate it until I understand what is actually happening.
 
-The value is in understanding **why that number matters.**
-
----
-
-## How I Approach Analytics
-
-I usually start with a simple question:
-
-> **What are we actually trying to understand?**
-
-From there, I work through the problem step by step.
-
-**What is happening?**  
-→ **Can I trust the data?**  
-→ **Where is it happening?**  
-→ **Why is it happening?**  
-→ **What changes when I break it down further?**  
-→ **What does this mean for the business?**
-
-If the analysis raises another question, I follow it.
-
-That curiosity is one of the things I value most in analytics.
-
-I also learn tools in the same way.
-
-Rather than memorising concepts, I try to understand **why something exists, what problem it solves, when it should be used, and what it allows me to investigate that I couldn't investigate before.**
+That mindset is what has shaped the way I learn, build projects, and approach analytics.
 
 ---
 
-## Selected Analytics Work
+## 🔍 How I Think About Data
 
-My projects cover logistics, financial risk, startup analysis and customer operations.
+I usually don't start with:
 
-I deliberately chose different business problems because I wanted to understand how the analytical approach changes depending on the question.
+> *"Which chart should I build?"*
+
+I start with:
+
+> **"What are we trying to understand?"**
+
+Then I work through the problem step by step.
+
+**What is happening?**
+
+↓  
+
+**Can I trust the data?**
+
+↓
+
+**Where exactly is the problem?**
+
+↓
+
+**What happens when I break it down?**
+
+↓
+
+**Why is this happening?**
+
+↓
+
+**What does it mean from a business perspective?**
+
+This is also how I learn new tools.
+
+I don't like memorising concepts just because they are part of a syllabus.
+
+When I learn something new, I try to understand **why it exists, what problem it solves, when it should be used, and how it changes the way I approach a problem.**
 
 ---
 
-### 01 — Logistics & Operations Analytics
+# 📊 What I've Worked On
+
+I've deliberately built projects around different business problems rather than creating dashboards simply to demonstrate a tool.
+
+### 📦 Logistics & Operations Analytics
 
 **5.87M+ transactions | 970K+ delayed shipments**
 
-**The question**
+I worked with a large logistics dataset to understand delivery performance and operational bottlenecks.
 
-> Where are delivery operations failing, and what is driving the delays?
+I didn't want to simply calculate a delay rate.
 
-I worked with more than **5.87 million logistics transactions** covering deliveries, pickups and courier activity.
+I wanted to understand:
 
-Before analysing performance, I focused on understanding the data itself — cleaning, validating, transforming and reconciling the information using SQL, Power Query and Excel.
+- Where are SLA failures happening?
+- Which service types are affected?
+- Are certain locations contributing more to delays?
+- What patterns appear across operational time windows?
+- How does courier performance differ?
+- What is actually driving the delayed shipments?
 
-I then investigated:
+I used **SQL, Power Query, Excel, Python, Power BI and DAX** to clean, validate, transform and analyse the data.
 
-- SLA compliance
-- Delivery delays
-- ETA performance
-- Service types
-- Cities and locations
-- Operational time windows
-- Courier performance
-- Delay patterns
+The analysis investigated **970K+ delayed shipments** and resulted in **7 Power BI dashboards** covering areas such as SLA compliance, delay rate, ETA performance and courier efficiency.
 
-The analysis led me to investigate more than **970K delayed shipments** to understand where delays were concentrated and what operational patterns were associated with them.
+**The part I found most valuable:**  
+The more I investigated the data, the more questions appeared.
 
-I built **7 Power BI dashboards** using SQL, DAX, Power Query and Python to analyse different aspects of delivery performance.
+That's what I enjoy about analytics.
 
-**What I learned**
-
-The first answer is rarely the complete answer.
-
-A useful metric often leads to a better question — and that question can lead to the real insight.
-
-[View Project →](https://github.com/FatemaAkhtar/Last-Mile-Delivery-Performance-Optimization-Analytics)
+[View Logistics Analytics Project →](https://github.com/FatemaAkhtar/Last-Mile-Delivery-Performance-Optimization-Analytics)
 
 ---
 
-### 02 — Financial Risk Analytics
+### 🏦 Financial Risk Analytics
 
 **500K+ mortgage records | $37.8B portfolio exposure**
 
-**The question**
+Here, the question changed from operational performance to financial risk.
 
-> Where is the risk within the portfolio?
+I wanted to understand:
 
-I worked with more than **500,000 mortgage records** representing approximately **$37.8B in portfolio exposure**.
+> **Where is the risk within the portfolio?**
 
-Rather than looking at the portfolio as a single number, I broke it down across:
+I analysed mortgage records across:
 
 - Delinquency
 - Credit score
@@ -105,72 +111,63 @@ Rather than looking at the portfolio as a single number, I broke it down across:
 - Risk categories
 - Portfolio exposure
 
-The analysis identified approximately **$6.8B in exposure at risk**, with nearly **33% of the portfolio** falling into medium-to-high risk categories.
+The analysis identified approximately **$6.8B in exposure at risk**, with nearly **33% of the portfolio falling into medium-to-high risk categories.**
 
-But the important part for me was not simply identifying the exposure.
+But identifying the number was only the beginning.
 
-I wanted to understand **what characteristics were associated with that risk** and how the picture changed when the portfolio was analysed from different perspectives.
+I wanted to understand what characteristics were associated with that risk and how the portfolio changed when broken down across different borrower and loan attributes.
 
-**Tools**
+**Tools:**  
+`SQL` · `Power BI` · `DAX` · `Excel` · `Power Query`
 
-`SQL` `Power BI` `DAX` `Excel` `Power Query`
-
-[View Project →](https://github.com/FatemaAkhtar/Mortgage-Backed-Securities-Risk-Analytics-Business-Intelligence)
+[View Financial Risk Project →](https://github.com/FatemaAkhtar/Mortgage-Backed-Securities-Risk-Analytics-Business-Intelligence)
 
 ---
 
-### 03 — Startup Outcome Prediction
+### 🤖 Startup Outcome Prediction
 
 **196K+ startup records | Python | Machine Learning**
 
-**The question**
+This project took me beyond traditional BI and descriptive analytics.
 
-> What factors are associated with different startup outcomes?
+The question was:
 
-I worked with more than **196,000 startup records** covering outcomes such as:
+> **What factors are associated with different startup outcomes?**
+
+I worked with more than **196,000 startup records** and analysed outcomes including:
 
 - Acquisition
 - IPO
 - Closure
 - Continued operations
 
-The project involved data cleaning and validation using Python, Pandas and NumPy, followed by Machine Learning classification.
+I used **Python, Pandas and NumPy** for data preparation and validation, followed by Machine Learning classification to explore patterns associated with different outcomes.
 
-What made this project particularly interesting to me was the change in the analytical question.
+What interested me most was the shift in the question:
 
-Instead of only asking:
+**Descriptive analytics:**  
+"What happened?"
 
-> **What happened?**
+**Predictive analytics:**  
+"Can the available data help us understand what might happen?"
 
-I started exploring:
+That pushed me to think differently about how analytical methods can be used depending on the problem.
 
-> **Can the available data help us understand or predict what might happen?**
-
-That pushed me beyond descriptive reporting and helped me understand where predictive approaches can add value to a business problem.
-
-**Tools**
-
-`Python` `Pandas` `NumPy` `Scikit-learn` `Machine Learning`
-
-[View Project →](https://github.com/FatemaAkhtar/Startup-Outcome-Prediction)
+[View Startup ML Project →](https://github.com/FatemaAkhtar/Startup-Outcome-Prediction)
 
 ---
 
-### 04 — Call Center Performance Analytics
+### ☎️ Call Center Performance Analytics
 
 **Operations | Service Performance | Customer Experience**
 
-**The question**
+I also explored customer-service operations through a Power BI dashboard focused on:
 
-> What do operational KPIs tell us about customer-service performance?
-
-I built a Power BI dashboard to analyse:
-
-- Call volume
-- Answer rate
-- Resolution rate
-- Response time
-- Customer satisfaction
+- Answer Rate
+- Resolution Rate
+- Response Time
+- Customer Satisfaction
+- Call Volume
 
 Key metrics included:
 
@@ -179,28 +176,13 @@ Key metrics included:
 **67.5 sec Response Time**  
 **3.4 CSAT**
 
-The objective was to move beyond displaying KPIs and understand how operational performance connects with the customer experience.
+The goal was not simply to display KPIs, but to look at how operational performance connects with customer experience.
 
-[View Project →](https://github.com/FatemaAkhtar/call-center-performance-intelligence)
-
----
-
-## The Scale of My Work
-
-| Area | Scale |
-|---|---:|
-| Logistics transactions analysed | **5.87M+** |
-| Delayed shipments investigated | **970K+** |
-| Mortgage records analysed | **500K+** |
-| Portfolio exposure analysed | **$37.8B** |
-| Exposure at risk identified | **~$6.8B** |
-| Medium-to-high risk portfolio | **~33%** |
-| Startup records analysed | **196K+** |
-| Power BI dashboards developed | **7** |
+[View Call Center Project →](https://github.com/FatemaAkhtar/call-center-performance-intelligence)
 
 ---
 
-## Technical Toolkit
+# 🛠️ My Analytics Toolkit
 
 ### Data Analysis
 `SQL` · `Python` · `Pandas` · `NumPy`
@@ -211,8 +193,8 @@ The objective was to move beyond displaying KPIs and understand how operational 
 ### Excel
 `Pivot Tables` · `VLOOKUP` · `XLOOKUP` · `Advanced Excel` · `VBA`
 
-### Data Preparation & Quality
-`Data Cleaning` · `Data Validation` · `Data Transformation`  
+### Data Preparation
+`Data Cleaning` · `Data Validation` · `Transformation`  
 `Data Quality` · `Reconciliation` · `Standardization` · `ETL`
 
 ### Analytics
@@ -224,58 +206,92 @@ The objective was to move beyond displaying KPIs and understand how operational 
 
 ---
 
-## What I Bring to a Problem
+# 🧩 What I Bring
 
-### Curiosity
+I believe my strongest foundation is not a particular tool.
 
-I naturally want to understand what is behind a result rather than stopping at the result itself.
+It's the way I approach a problem.
 
-### Investigation
+### I ask questions.
 
-If something looks unusual, I want to break it down, validate it and understand why.
+If a metric changes, I want to know why.
 
-### Data discipline
+### I investigate.
 
-I believe analysis is only as reliable as the data behind it. Cleaning, validation and reconciliation are part of the analysis — not an afterthought.
+I don't like accepting the first explanation without checking the data.
 
-### Business thinking
+### I care about data quality.
 
-I try to connect technical analysis back to the original business question and understand what the result actually means.
+An impressive dashboard built on unreliable data is still an unreliable analysis.
 
-### Continuous learning
+### I go one level deeper.
 
-I'm comfortable learning unfamiliar tools and concepts when they help me solve a problem or investigate it more deeply.
+Once I answer the original question, I often ask:
 
-### Understanding over memorisation
+> **"What else does this tell us?"**
 
-I don't want to simply know how to use a function, feature or tool.
+### I learn by understanding.
 
-I want to understand **why it is useful and when it should be used.**
+I want to know the purpose behind a concept, not just remember the syntax.
 
----
+### I enjoy exploring.
 
-## What I'm Working Toward
-
-I'm now looking to take the foundation I've built through projects and analytics training into real business problems.
-
-I'm particularly interested in:
-
-**Data Analytics · Business Intelligence · Business Analysis · Operational Analytics · KPI Reporting · Data Quality · Decision Support**
-
-I want to work in an environment where I can contribute with the foundation I already have while continuing to learn from real problems, real data and experienced people.
-
-My goal is not to become someone who knows every tool.
-
-My goal is to become someone who can take an unclear problem, ask the right questions, investigate the data properly, and explain the answer clearly.
+If a different tool, method or technique can help me understand the problem better, I'm willing to learn it and test it.
 
 ---
 
-## Connect
+# 📈 The Scale of My Work
 
-If you're working in Data Analytics, Business Intelligence, Data Science, Operations Analytics or Business Analysis, I'd be happy to connect.
+| Area | Scale / Result |
+|---|---:|
+| Logistics transactions | **5.87M+** |
+| Delayed shipments investigated | **970K+** |
+| Mortgage records | **500K+** |
+| Portfolio exposure | **$37.8B** |
+| Exposure at risk identified | **~$6.8B** |
+| Medium-to-high risk portfolio | **~33%** |
+| Startup records | **196K+** |
+| Power BI dashboards | **7** |
 
-**LinkedIn**  
-[Fatema Akhtar](https://www.linkedin.com/in/fatema-akhtar-2a5a1b2a)
+---
 
-**GitHub**  
-[FatemaAkhtar](https://github.com/FatemaAkhtar)
+# 🎯 What I'm Looking For
+
+I'm now looking to take the foundation I've built through projects and analytics training into a real business environment.
+
+I'm particularly interested in work involving:
+
+**Data Analytics · Business Intelligence · Operational Analytics ·  
+Business Analysis · Reporting · KPI Analysis · Data Quality ·  
+Decision Support**
+
+I want to work on problems where the question isn't always perfectly defined and where good analysis requires **curiosity, investigation and continuous learning.**
+
+---
+
+# 🚀 What's Next
+
+I'm continuing to strengthen the fundamentals while exploring new ways to make my analysis deeper and more useful.
+
+My focus isn't on collecting as many tools as possible.
+
+It's on becoming better at:
+
+**understanding the problem → asking better questions → working with reliable data → analysing deeply → communicating what the data actually means.**
+
+That's the kind of Data Analyst I'm working toward becoming.
+
+---
+
+## 🤝 Let's Connect
+
+I'm always interested in connecting with people working in:
+
+**Data Analytics · Business Intelligence · Data Science ·  
+Operations Analytics · Product Analytics · Business Analysis**
+
+📌 **LinkedIn:**  
+[linkedin.com/in/fatema-akhtar-2a5a1b2a](https://www.linkedin.com/in/fatema-akhtar-2a5a1b2a)
+
+📌 **GitHub:**  
+[github.com/FatemaAkhtar](https://github.com/FatemaAkhtar)
