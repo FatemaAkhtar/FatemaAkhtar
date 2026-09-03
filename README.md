@@ -1,42 +1,48 @@
-# Hi, I'm Fatema Akhtar 👋
+# Hey, I'm Fatema Akhtar 👋
 
-### Data Analyst | Business Intelligence | SQL | Power BI | Python
+### Data Analyst | Business Intelligence | SQL | Power BI | Python | Excel
 
-I work with data to understand **what is happening, why it is happening, and what we should look at next.**
+If you ask me what I enjoy most about analytics, it's probably this:
 
-My approach to analytics is simple:
+**finding something interesting in the data and then asking, "okay, but why?"**
 
-**Ask the right question → Understand the data → Validate it → Investigate → Go deeper → Find the story → Communicate the insight**
+I like starting with a question, getting into the data, checking whether I can actually trust it, finding a pattern, and then going one step further.
 
-I don't want to stop at a number that looks right.
+And usually, that one step leads to another question.
 
-If something looks unusual, doesn't make sense, or raises another question, I want to investigate it until I understand what is actually happening.
+That's the part of analytics I genuinely enjoy.
 
-That mindset is what has shaped the way I learn, build projects, and approach analytics.
+I don't want to stop at a number just because the calculation is correct.
+
+I want to understand **what that number is telling me, why it looks the way it does, and whether there is something underneath it that I haven't found yet.**
+
+That's how I approach my projects.
+
+That's also how I learn.
 
 ---
 
-## 🔍 How I Think About Data
+## 🧭 How I Think About Data
 
-I usually don't start with:
+I don't usually start by thinking:
 
-> *"Which chart should I build?"*
+> **"What dashboard should I build?"**
 
 I start with:
 
-> **"What are we trying to understand?"**
+> **"What are we actually trying to understand?"**
 
-Then I work through the problem step by step.
+Then I take it one step at a time.
 
 **What is happening?**
 
-↓  
+↓
 
 **Can I trust the data?**
 
 ↓
 
-**Where exactly is the problem?**
+**Where exactly is it happening?**
 
 ↓
 
@@ -48,61 +54,108 @@ Then I work through the problem step by step.
 
 ↓
 
-**What does it mean from a business perspective?**
+**Is there something else the data is telling me?**
 
-This is also how I learn new tools.
+↓
 
-I don't like memorising concepts just because they are part of a syllabus.
+**And finally — what does this actually mean?**
 
-When I learn something new, I try to understand **why it exists, what problem it solves, when it should be used, and how it changes the way I approach a problem.**
+Sometimes the original question gets answered quickly.
+
+Sometimes it opens five more questions.
+
+I actually like the second situation more.
+
+Because that's usually where the interesting analysis starts.
 
 ---
 
-# 📊 What I've Worked On
+## 🧠 How I Learn
 
-I've deliberately built projects around different business problems rather than creating dashboards simply to demonstrate a tool.
+I've never been very comfortable with simply memorising a concept because it's part of a course.
 
-### 📦 Logistics & Operations Analytics
+If I'm learning something new, I want to understand:
 
-**5.87M+ transactions | 970K+ delayed shipments**
+**Why does this exist?**
 
-I worked with a large logistics dataset to understand delivery performance and operational bottlenecks.
+**What problem does it solve?**
 
-I didn't want to simply calculate a delay rate.
+**When should I use it?**
 
-I wanted to understand:
+**What happens if I approach the problem differently?**
 
-- Where are SLA failures happening?
+And most importantly:
+
+**Does it actually help me understand the data better?**
+
+That's how I've approached learning SQL, Power BI, DAX, Power Query, Python and Machine Learning.
+
+I'm curious by nature, so if I find a tool or technique that could help me investigate something more deeply, I want to explore it.
+
+---
+
+# 📊 The Projects That Shaped My Thinking
+
+I didn't build these projects just to demonstrate that I know a particular tool.
+
+I wanted to work through different kinds of business problems and see how far I could take the analysis.
+
+---
+
+## 📦 01 — Logistics & Operations Analytics
+
+### 5.87M+ transactions | 970K+ delayed shipments
+
+This project started with a simple question:
+
+> **Where are delivery operations failing, and why?**
+
+I was working with more than **5.87 million logistics transactions** covering deliveries, pickups and courier activity.
+
+My first instinct wasn't to open Power BI and start building charts.
+
+I wanted to understand the data first.
+
+I cleaned, validated, transformed and reconciled the data using **SQL, Power Query and Excel**.
+
+Then I started asking questions.
+
+- Where are the SLA failures?
 - Which service types are affected?
-- Are certain locations contributing more to delays?
-- What patterns appear across operational time windows?
-- How does courier performance differ?
+- Are some locations performing differently?
+- Are delays concentrated around particular time windows?
+- How does courier performance vary?
 - What is actually driving the delayed shipments?
 
-I used **SQL, Power Query, Excel, Python, Power BI and DAX** to clean, validate, transform and analyse the data.
+One thing led to another, and I ended up investigating **970K+ delayed shipments**.
 
-The analysis investigated **970K+ delayed shipments** and resulted in **7 Power BI dashboards** covering areas such as SLA compliance, delay rate, ETA performance and courier efficiency.
+I then built **7 Power BI dashboards** covering areas such as SLA compliance, delay rate, ETA performance and courier efficiency.
 
-**The part I found most valuable:**  
-The more I investigated the data, the more questions appeared.
+### What I liked most about this project
 
-That's what I enjoy about analytics.
+The more I looked, the more questions I had.
 
-[View Logistics Analytics Project →](https://github.com/FatemaAkhtar/Last-Mile-Delivery-Performance-Optimization-Analytics)
+And that's probably the best description of how I like to analyse data.
+
+**I don't want the first answer. I want to understand the problem.**
+
+[View the Logistics Analytics Project →](https://github.com/FatemaAkhtar/Last-Mile-Delivery-Performance-Optimization-Analytics)
 
 ---
 
-### 🏦 Financial Risk Analytics
+## 💰 02 — Financial Risk Analytics
 
-**500K+ mortgage records | $37.8B portfolio exposure**
+### 500K+ mortgage records | $37.8B portfolio exposure
 
-Here, the question changed from operational performance to financial risk.
+This time, the question was completely different:
 
-I wanted to understand:
+> **Where is the risk in the portfolio?**
 
-> **Where is the risk within the portfolio?**
+I worked with more than **500,000 mortgage records** representing approximately **$37.8B in portfolio exposure**.
 
-I analysed mortgage records across:
+Instead of treating the portfolio as one large number, I started breaking it down.
+
+I looked at:
 
 - Delinquency
 - Credit score
@@ -111,57 +164,68 @@ I analysed mortgage records across:
 - Risk categories
 - Portfolio exposure
 
-The analysis identified approximately **$6.8B in exposure at risk**, with nearly **33% of the portfolio falling into medium-to-high risk categories.**
+The analysis identified approximately **$6.8B in exposure at risk**, with nearly **33% of the portfolio** falling into medium-to-high risk categories.
 
-But identifying the number was only the beginning.
+But again, I didn't want to stop there.
 
-I wanted to understand what characteristics were associated with that risk and how the portfolio changed when broken down across different borrower and loan attributes.
+Finding the exposure was useful.
 
-**Tools:**  
-`SQL` · `Power BI` · `DAX` · `Excel` · `Power Query`
+Understanding **what was associated with that risk** was more interesting.
 
-[View Financial Risk Project →](https://github.com/FatemaAkhtar/Mortgage-Backed-Securities-Risk-Analytics-Business-Intelligence)
+So I explored the relationships between borrower and loan characteristics and the different risk indicators.
+
+### What this project taught me
+
+A metric is only the beginning.
+
+The real value comes from understanding **what is behind it**.
+
+[View the Financial Risk Project →](https://github.com/FatemaAkhtar/Mortgage-Backed-Securities-Risk-Analytics-Business-Intelligence)
 
 ---
 
-### 🤖 Startup Outcome Prediction
+## 🤖 03 — Startup Outcome Prediction
 
-**196K+ startup records | Python | Machine Learning**
+### 196K+ startup records | Python | Machine Learning
 
-This project took me beyond traditional BI and descriptive analytics.
+This project took me in a different direction.
 
 The question was:
 
 > **What factors are associated with different startup outcomes?**
 
-I worked with more than **196,000 startup records** and analysed outcomes including:
+I worked with more than **196,000 startup records**, looking at outcomes such as:
 
 - Acquisition
 - IPO
 - Closure
 - Continued operations
 
-I used **Python, Pandas and NumPy** for data preparation and validation, followed by Machine Learning classification to explore patterns associated with different outcomes.
+I used **Python, Pandas and NumPy** for data preparation and validation, and then moved into Machine Learning classification.
 
-What interested me most was the shift in the question:
+What I found interesting here was that the question itself changed.
 
-**Descriptive analytics:**  
-"What happened?"
+With the other projects, I was mainly asking:
 
-**Predictive analytics:**  
-"Can the available data help us understand what might happen?"
+> **What happened?**
 
-That pushed me to think differently about how analytical methods can be used depending on the problem.
+Here I started asking:
 
-[View Startup ML Project →](https://github.com/FatemaAkhtar/Startup-Outcome-Prediction)
+> **Can the data help us understand or predict what might happen?**
+
+That pushed me to think beyond traditional reporting and explore how the analytical approach changes when the problem changes.
+
+[View the Startup Outcome Prediction Project →](https://github.com/FatemaAkhtar/Startup-Outcome-Prediction)
 
 ---
 
-### ☎️ Call Center Performance Analytics
+## ☎️ 04 — Call Center Performance Analytics
 
-**Operations | Service Performance | Customer Experience**
+### Operations | Service Performance | Customer Experience
 
-I also explored customer-service operations through a Power BI dashboard focused on:
+This project was about understanding customer-service operations through performance data.
+
+I built a Power BI dashboard around:
 
 - Answer Rate
 - Resolution Rate
@@ -169,74 +233,92 @@ I also explored customer-service operations through a Power BI dashboard focused
 - Customer Satisfaction
 - Call Volume
 
-Key metrics included:
+Some of the key metrics were:
 
 **74.1% Answer Rate**  
 **90% Resolution Rate**  
 **67.5 sec Response Time**  
 **3.4 CSAT**
 
-The goal was not simply to display KPIs, but to look at how operational performance connects with customer experience.
+But again, I wasn't interested in just putting those numbers on a dashboard.
 
-[View Call Center Project →](https://github.com/FatemaAkhtar/call-center-performance-intelligence)
+I wanted to understand how the operational metrics connected with the customer experience.
+
+[View the Call Center Project →](https://github.com/FatemaAkhtar/call-center-performance-intelligence)
 
 ---
 
-# 🛠️ My Analytics Toolkit
+# 🛠️ What I've Worked With
 
 ### Data Analysis
+
 `SQL` · `Python` · `Pandas` · `NumPy`
 
 ### Business Intelligence
+
 `Power BI` · `DAX` · `Power Query`
 
 ### Excel
+
 `Pivot Tables` · `VLOOKUP` · `XLOOKUP` · `Advanced Excel` · `VBA`
 
-### Data Preparation
-`Data Cleaning` · `Data Validation` · `Transformation`  
+### Data Preparation & Quality
+
+`Data Cleaning` · `Data Validation` · `Data Transformation`  
 `Data Quality` · `Reconciliation` · `Standardization` · `ETL`
 
 ### Analytics
+
 `KPI Analysis` · `Trend Analysis` · `Root Cause Analysis`  
 `Business Insights` · `Operational Analytics` · `Financial Risk Analytics`
 
 ### Machine Learning
+
 `Scikit-learn` · `Classification` · `Predictive Analysis`
 
 ---
 
-# 🧩 What I Bring
+# 🔎 A Few Things That Matter to Me
 
-I believe my strongest foundation is not a particular tool.
+### Asking the right questions
 
-It's the way I approach a problem.
+Sometimes the quality of an analysis depends more on the question than the tool being used.
 
-### I ask questions.
+I try to spend time understanding the problem before jumping into the solution.
 
-If a metric changes, I want to know why.
+### Going one level deeper
 
-### I investigate.
+If I find something interesting, I usually don't leave it there.
 
-I don't like accepting the first explanation without checking the data.
+I want to know:
 
-### I care about data quality.
+> **Why?**
 
-An impressive dashboard built on unreliable data is still an unreliable analysis.
+And once I understand that:
 
-### I go one level deeper.
+> **What else?**
 
-Once I answer the original question, I often ask:
+### Trusting the data
 
-> **"What else does this tell us?"**
+A dashboard can look perfect and still tell the wrong story.
 
-### I learn by understanding.
+That's why I take data cleaning, validation, reconciliation and quality seriously.
 
-I want to know the purpose behind a concept, not just remember the syntax.
+### Understanding instead of memorising
 
-### I enjoy exploring.
+I don't want to remember that something works.
 
-If a different tool, method or technique can help me understand the problem better, I'm willing to learn it and test it.
+I want to understand **why it works and when it makes sense to use it.**
+
+### Being curious about tools
+
+If SQL can answer the question, great.
+
+If Python can help me investigate it further, I'll use Python.
+
+If Power BI can communicate the finding better, I'll use Power BI.
+
+**The tool comes after the problem.**
 
 ---
 
@@ -255,43 +337,34 @@ If a different tool, method or technique can help me understand the problem bett
 
 ---
 
-# 🎯 What I'm Looking For
+# 🎯 Where I'm Heading
 
-I'm now looking to take the foundation I've built through projects and analytics training into a real business environment.
+I've built a strong foundation through projects, analytics training and continuous hands-on learning.
 
-I'm particularly interested in work involving:
+Now I want to put that foundation into a real business environment.
 
-**Data Analytics · Business Intelligence · Operational Analytics ·  
-Business Analysis · Reporting · KPI Analysis · Data Quality ·  
-Decision Support**
+I'm particularly interested in:
 
-I want to work on problems where the question isn't always perfectly defined and where good analysis requires **curiosity, investigation and continuous learning.**
+**Data Analytics · Business Intelligence · Business Analysis · Operational Analytics · KPI Reporting · Data Quality · Decision Support**
 
----
+I know there is still a lot for me to learn.
 
-# 🚀 What's Next
+And I'm completely comfortable with that.
 
-I'm continuing to strengthen the fundamentals while exploring new ways to make my analysis deeper and more useful.
+In fact, that's one of the things I like most about this field.
 
-My focus isn't on collecting as many tools as possible.
+There is always another dataset, another problem, another tool, or simply another **"why?"** to investigate.
 
-It's on becoming better at:
-
-**understanding the problem → asking better questions → working with reliable data → analysing deeply → communicating what the data actually means.**
-
-That's the kind of Data Analyst I'm working toward becoming.
+My goal is to become the kind of analyst who can take an unclear problem, ask the right questions, work through the data properly, and explain what the numbers actually mean.
 
 ---
 
-## 🤝 Let's Connect
+# 🤝 Let's Connect
 
-I'm always interested in connecting with people working in:
+If you're working in **Data Analytics, Business Intelligence, Data Science, Operations Analytics or Business Analysis**, I'd be happy to connect.
 
-**Data Analytics · Business Intelligence · Data Science ·  
-Operations Analytics · Product Analytics · Business Analysis**
+**LinkedIn:**  
+[Fatema Akhtar](https://www.linkedin.com/in/fatema-akhtar-2a5a1b2a)
 
-📌 **LinkedIn:**  
-[linkedin.com/in/fatema-akhtar-2a5a1b2a](https://www.linkedin.com/in/fatema-akhtar-2a5a1b2a)
-
-📌 **GitHub:**  
-[github.com/FatemaAkhtar](https://github.com/FatemaAkhtar)
+**GitHub:**  
+[FatemaAkhtar](https://github.com/FatemaAkhtar)
