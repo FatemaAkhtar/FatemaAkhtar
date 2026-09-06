@@ -4,9 +4,11 @@ I’m a **Data Analyst** who likes getting past the first answer — understandi
 
 My work spans **business analytics, operations, logistics, financial risk, and predictive analysis**, using SQL, Power BI, Python and Excel to investigate real business problems and find the story behind the numbers.
 
-### 🔍 The interesting part is what happens after the first answer → [See the investigations](https://fatema-akhtar-portfolio.vercel.app/)
+### 🔎 What happened is only the starting point.
 
-*Case studies across logistics, financial risk, startup analytics, operations and more.*
+**[Come see what I found when I started asking why →](https://fatema-akhtar-portfolio.vercel.app/)**
+
+*The questions I asked, the patterns I uncovered, and the stories the data revealed.*
 
 ---
 
