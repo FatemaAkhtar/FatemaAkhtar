@@ -1,6 +1,6 @@
 # Hey, I’m Fatema 👋
 
-I’m a **Data Analyst** who likes getting past the first answer — understanding what happened, why it happened, and what the data is actually telling us.
+I’m a **Data Analyst** who likes getting past the first answer understanding what happened, why it happened, and what the data is actually telling us.
 
 My work spans **business analytics, operations, logistics, financial risk, and predictive analysis**, using SQL, Power BI, Python and Excel to investigate real business problems and find the story behind the numbers.
 
@@ -44,7 +44,7 @@ SQL analysis | Customer behaviour | Restaurant performance | Revenue trends
 
 A number is rarely the whole story.
 
-I like asking the next question — **what changed, why did it change, where is the pattern, and does the evidence actually support the conclusion?**
+I like asking the next question **what changed, why did it change, where is the pattern, and does the evidence actually support the conclusion?**
 
 There will always be another tool to learn. **Strong foundations in data, SQL, analytical thinking, statistics, and business context matter more.**
 
